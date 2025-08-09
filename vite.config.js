@@ -7,6 +7,11 @@ export default defineConfig({
   plugins: [
        tailwindcss(),
     react()],
-    base:'/BhushanPortfolio/'
+    base:
+    process.env.NODE_ENV === 'production'
+      ? process.env.VERCEL
+        ? ''
+        : '/BhushanPortfolio/'
+      : '/',
     
 })
