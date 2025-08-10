@@ -21,9 +21,12 @@
 }
 
 
-
-body {
+ /* ::-webkit-scrollbar{
+  display: none;
+ } */
+html,body {
   font-family: 'Aerospace';
+
 }
 .para{
   font-family: 'MRegular';
@@ -31,5 +34,31 @@ body {
 
 
 /* skillss */
+
+
+/* Scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* width of vertical scrollbar */
+  height: 18px; /* height of horizontal scrollbar */
+ 
+}
+
+/* Scrollbar track background */
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+  border-radius: 0px;
+   
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #f3bc15;
+  border-radius: 20px;
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 

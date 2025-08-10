@@ -13,7 +13,7 @@ const ProjectData =[
     video: `${base}pictures/ProjectsImg/obysVid.mp4`,
     title: "Obeys Clone Website",
     description: "Created a clone of this website built with React, GSAP, and Tailwind CSS.",
-    link: "https://bhushanz.github.io/mercelysIceCream/",
+    link: " https://bhushanz.github.io/ObeyAgency/",
   },
   {
     image: `${base}pictures/ProjectsImg/coming.jpg`,
